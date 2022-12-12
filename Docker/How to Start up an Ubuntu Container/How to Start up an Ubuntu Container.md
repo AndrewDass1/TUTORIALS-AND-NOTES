@@ -12,7 +12,14 @@ can download the image and run it. Dockerhub is a place where pre-existing Docke
 Ubuntu image and run it. To visit Dockerhub and see many pre-existing images, please visit the official website: https://hub.docker.com/
 <br>
 <br>
-On the top-left of the screen, an image can be searched by using the search bar
+On the top-left of the screen, an image can be searched by using the search bar <br>
+
+<html>
+     <h1>
+        <img style="float: center;" src=/Docker/How to Start up an Ubuntu Container/images/DockerHomepage.png width="1000" />
+     </h1>
+</html> 
+
 <br>
 <br>
 To navigate the entire image list, scroll down and click on "See all Docker Official Images"
