@@ -118,3 +118,18 @@ ssh -i "name_of_key_pair_file".pem "amazon_image"@"IPv4 Public IP"
         <img style="float: center;" src="/AWS/EC2/Create an EC2/images/16.png" width="1000" />
      </h1>
 </html> 
+
+13. Once an EC2 is deleted, the Key pair generated with the EC2 becomes useless since that specific Key pair can only be used to access the deleted EC2. To also delete the Key pair, select "Key pairs" on the EC2 Dashboard.
+
+14. Select the Key pair that was associated with the deleted EC2. Then, select "Actions" and press "Delete"
+<html>
+     <h1>
+        <img style="float: center;" src="/AWS/EC2/Create an EC2/images/18.png" width="1000" />
+     </h1>
+</html> 
+A pop-up occurs to give a final warning whether to delete the Key pair. When ready, type "delete" in the box and select the orange button "Delete" to delete the Key pair.
+<html>
+     <h1>
+        <img style="float: center;" src="/AWS/EC2/Create an EC2/images/19.png" width="1000" />
+     </h1>
+</html> 
