@@ -12,6 +12,11 @@ two minutes.
 ## Procedure
 1. Login and access AWS, and go to "EC2"
 2. Select the "Instances" option, and then select the "Launch an Instance" option
+<html>
+     <h1>
+        <img style="float: center;" src="AWS/EC2/Automate Downloading Jenkins in an EC2/pictures/1.png" width="1000" />
+     </h1>
+</html> 
 * A security group needs to be created to allow ports 22 and 8080 
 3. Click on the "Advanced Details" and more option should appear afterwards. Click it and scroll down
 to "User Data"
