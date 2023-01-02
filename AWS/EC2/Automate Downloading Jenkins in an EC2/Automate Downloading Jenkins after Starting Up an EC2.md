@@ -1,4 +1,4 @@
-# Automate Jenkins from Starting Up an EC2
+# Automate Downloading Jenkins after Starting Up an EC2
 EC2 have the option to automate softwares from startup. What that means is, instead of first creating
 an EC2 and then manually type in commands or code to download software, there is an option before creating
 the EC2 in "Advanced Settings" called "User Data". Any commands that is listed in "User Data" will be run automatically
