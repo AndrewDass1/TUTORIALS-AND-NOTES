@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Download PyTest Package') {
+            steps {
+                sh 'pip install -U pytest'
+            }
+        }
+        
+        stage('Run the Script') {
+            steps {
+                sh 'pytest testing_with_pytest.py'
+            }
+        }
+        
+    }
+}
