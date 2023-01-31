@@ -27,15 +27,16 @@ localhost:8080
 The Jenkins login setup page is shown below:
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins5.png" width="600" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins5.png" width="600" />
      </h1>
 </html>
+
 
 The "Administrator Password" can be found in the "Logs" section in the Docker container
 
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins6.png" width="600" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins6.png" width="600" />
      </h1>
 </html>
 
@@ -43,20 +44,20 @@ The "Administrator Password" can be found in the "Logs" section in the Docker co
 
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins7.png" width="600" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins7.png" width="600" />
      </h1>
 </html>
 
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins9.png" width="600" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins9.png" width="600" />
      </h1>
 </html>
 
 5. Create a Username, password and confirm an E-mal address or choose "Skip and continue as admin"
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins9.png" width="600" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins9.png" width="600" />
      </h1>
 </html>
 
@@ -64,21 +65,21 @@ The "Administrator Password" can be found in the "Logs" section in the Docker co
 
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins9-2.png" width="1000" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins9-2.png" width="1000" />
      </h1>
 </html>
 
 Select "Manage Plugins"
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins9-3.png" width="1000" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins9-3.png" width="1000" />
      </h1>
 </html>
 
 Here, shows there can be updates and if there are any updates that need to be installed, carefully follow the directions. The left-bar menu gives the options to download or customize plugins or settings to run scripts.
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins9-4.png" width="1000" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins9-4.png" width="1000" />
      </h1>
 </html>
 
@@ -87,14 +88,14 @@ Here, shows there can be updates and if there are any updates that need to be in
 
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins10.png" width="1000" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins10.png" width="1000" />
      </h1>
 </html>
 
 By providing the Github url, Jenkins now knows which Github repository is being referred to.
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins11.png" width="1000" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins11.png" width="1000" />
      </h1>
 </html>
 
@@ -104,7 +105,7 @@ Enabling the option, Github hook trigger will execute the Jenkins pipeline every
 
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins11-2.png" width="1000" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins11-2.png" width="1000" />
      </h1>
 </html>
 
@@ -112,12 +113,12 @@ Enabling the option, Github hook trigger will execute the Jenkins pipeline every
 Below specifies what repository, which branch, how and where the files can be found in the Github repository to make sure Jenkins can find and execute the files that are given to it. Jenkins always executes a "Jenkinsfile" and in this repository, it is located in the path "/Jenkins/Jenkinsfile". The Jenkinsfile has commands or instructions to execute any other files in any of the repositories' directories if specified.
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins12.png" width="1000" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins12.png" width="1000" />
      </h1>
 </html>
 
 <html>
      <h1>
-        <img style="float: center;" src="/pictures/jenkins13.png" width="1000" />
+        <img style="float: center;" src="/Jenkins/Using_Jenkins_to_Observe_Pytest_Runs/pictures/jenkins13.png" width="1000" />
      </h1>
 </html>
