@@ -11,7 +11,7 @@ RUN apt-get install -y python-is-python3
 RUN apt-get install -y python3-pip
 
 # Install Flask
-RUN pip install Flask
+RUN pip install flask
 
 # Install gunicorn
 RUN pip install gunicorn
