@@ -1,3 +1,5 @@
+# Script below has some errors, will be reviewed and corrected
+
 import pytest
 import random
 
