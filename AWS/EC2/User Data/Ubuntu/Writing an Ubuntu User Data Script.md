@@ -18,7 +18,7 @@ apt-get upgrade -y
 apt-get install ... -y
 ```
 
-Example Ubuntu User Data Script that installs pip for Python:
+## An Ubuntu User Data Script that installs pip for Python:
 ```
 #!/bin/bash
 apt-get update
